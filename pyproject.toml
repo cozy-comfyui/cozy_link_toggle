@@ -1,0 +1,15 @@
+[project]
+name = "cozy_link_toggle"
+description = "Example of using ComfyUI Toolbar to Toggle ComfyUI links on/off"
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/cozy-comfyui/cozy_link_toggle"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "amorano"
+DisplayName = "cozy_link_toggle"
+Icon = ""
