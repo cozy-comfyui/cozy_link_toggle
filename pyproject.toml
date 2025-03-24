@@ -1,14 +1,29 @@
 [project]
 name = "cozy_link_toggle"
 description = "Example of using ComfyUI Toolbar to Toggle ComfyUI links on/off"
-version = "1.0.0"
+version = "1.0.1"
 license = { file = "LICENSE" }
+readme = "README.md"
+authors = [{ name = "Alexander G. Morano", email = "amorano@gmail.com" }]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Intended Audience :: Developers",
+]
+requires-python = ">=3.11"
 dependencies = []
 
 [project.urls]
+Homepage = "https://github.com/cozy-comfyui/cozy_link_toggle"
+Documentation = "https://github.com/cozy-comfyui/cozy_link_toggle/wiki"
 Repository = "https://github.com/cozy-comfyui/cozy_link_toggle"
+Issues = "https://github.com/cozy-comfyui/cozy_link_toggle/issues"
 
 [tool.comfy]
 PublisherId = "amorano"
-DisplayName = "cozy_link_toggle"
-Icon = ""
+DisplayName = "Cozy Link Toggle"
+Icon = "https://raw.githubusercontent.com/Amorano/Jovimetrix-examples/refs/heads/master/res/logo-cozy-comfyui.png"
